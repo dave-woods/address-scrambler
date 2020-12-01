@@ -1,14 +1,13 @@
 {
   "name": "address-scrambler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mixes up a set of addresses and sends them to recipients for gift-exchanging purposes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["scramble", "shuffle", "address", "secret santa", "gift exchange"],
+  "author": "David Woods",
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^4.14.1",
